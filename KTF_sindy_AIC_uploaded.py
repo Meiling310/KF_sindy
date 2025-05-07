@@ -314,7 +314,7 @@ def get_max_score(scores):
 ### load data #####################
 data_path = os.getcwd() + '/'
 np.random.seed(100) 
-H = np.loadtxt(osp.join(data_path, 'DATA/H_data'))
+H = np.loadtxt(osp.join(data_path, 'H_data'))
 print(H.shape, 'H.shape')
 H = H.reshape(130, 3250)
 
